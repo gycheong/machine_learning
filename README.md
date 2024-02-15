@@ -1,1 +1,1 @@
-This repository summarizes various Machine Learning (ML) algorithms containing mathematical explanations as well as examples in implementations. It may grow in size over time.
+This repository summarizes various Machine Learning (ML) algorithms containing mathematical explanations as well as examples in implementations. All materials are written by me, and they will expand over time. Currently, any citations are given in terms of hyperlinks within the contents.
