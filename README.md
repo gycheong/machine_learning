@@ -1,1 +1,1 @@
-This repository contains examples that show how to use ML algorithms in practice. The data we use are from labs from the course "Machine Learning with Python" made by IBM.
+This repository summarizes various Machine Learning (ML) algorithms containing mathematical explanations as well as examples in implementations. It may grow in size over time.
