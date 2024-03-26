@@ -2,6 +2,9 @@
 
 This repository summarizes various Machine Learning (ML) algorithms with mathematical explanations as well as examples for implementations. All materials are written by me, and they will expand over time. Currently, any citations are given in terms of hyperlinks within the contents.
 
+### Convex Optimizations (folder)
+* **Lagrange duality and Slater's condition.ipynb** reviews the technique of Lagrange duality in optimization problems, which is behind ML techinques such as Ridge/Logistic Regressions and SVM. It contains a full proof of how we can obtain an extra equality constraint from the Lagrange dual of a given optimization problem under some mild convexity condition called *Slater's condition*, which is a clever application of Minkowski's [Hyperplane Separation Theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem).
+
 ### Linear and Polynomial Regressions (folder)
 * **Linear Regression (theory).ipynb** contains mathematical explanations on how linear regression algorithm works.
 * **Polynomial Regression (theory).ipynb** contains mathematical explanations on how polynomial regression algorithm works.
@@ -13,6 +16,3 @@ This repository summarizes various Machine Learning (ML) algorithms with mathema
 ### SVM (folder)
 * **SVM (theory).ipynb** contains mathematical explanations on how support vector machine (SVM) algorithm works. It also breifly expalins the role of the radial basis function (RBF) kernel.
 * **SVM (practice).ipynb** explains how to use SVM model in practice by finding SVM models that predict obesity based on several factors not are weight nor height; these are age, family history with overweight, high calroric food consumption, and food between meals. We use a [dataset for estimation of obesity levels based on eating habits and physical condition in individuals from Colombia, Peru and Mexico in UCI ML Repository](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
-
-### More math (folder)
-* **Lagrange duality in convex optimization.ipynb** reviews the technique of Lagrange duality in optimization problems, which is behind ML techinques such as Ridge/Logistic Regressions and SVM. It contains a full proof of how we can obtain an extra equality constraint from the Lagrange dual of a given optimization problem under some mild convexity condition called *Slater's condition*, which is a clever application of Minkowski's [Hyperplane Separation Theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem).
