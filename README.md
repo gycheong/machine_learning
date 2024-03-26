@@ -1,18 +1,15 @@
 ## Machine Learning Algorithms (Theory & Practice)
 
-This repository summarizes various Machine Learning (ML) algorithms with mathematical explanations as well as examples for implementations. All materials are written by me, and they will expand over time. Currently, any citations are given in terms of hyperlinks within the contents.
+This repository summarizes various Machine Learning (ML) algorithms with rigorous mathematical explanations as well as examples for implementations. All materials are written by me, and they will expand over time. Currently, any citations are given in terms of hyperlinks within the contents.
 
-### Convex Optimizations (folder)
-* **Lagrange duality and Slater's condition.ipynb** reviews the technique of Lagrange duality in optimization problems, which is behind ML techinques such as Ridge/Logistic Regressions and SVM. It contains a full proof of how we can obtain an extra equality constraint from the Lagrange dual of a given optimization problem under some mild convexity condition called *Slater's condition*, which is a clever application of Minkowski's [Hyperplane Separation Theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem).
+### ML theory
+* **1 Linear Regression.ipynb** contains mathematical explanations on how linear regression algorithm works.
+* **2 Polynomial Regression.ipynb** contains mathematical explanations on how polynomial regression algorithm works.
+* **3 Lagrange duality and Slater's condition.ipynb** reviews the technique of Lagrange duality in optimization problems, which is behind ML techinques such as Ridge/Logistic Regressions and SVM. It contains a full proof of how we can obtain an extra equality constraint from the Lagrange dual of a given optimization problem under some mild convexity condition called [Slater's condition](https://en.wikipedia.org/wiki/Slater%27s_condition), which is a clever application of Minkowski's [Hyperplane Separation Theorem](https://en.wikipedia.org/wiki/Hyperplane_separation_theorem).
+* **4 Ridge and Logistic Regressions.ipynb** discusses how to make ridge regularization on a linear regression model, applying Slater's condition. The same discussion can apply for a polynomial regression. We briefly explain how to build logistic regressions based on known regressions.
+* **5 SVM.ipynb** discusses how support vector machine (SVM) classification model works, applying Slater's condition. It also breifly expalins the role of the radial basis function (RBF) kernel to illustrated an example of kernel techniques.
+* **6 PCA.ipynb** contains mathematical explanations on how principal component analysis (PCA) works. We only use [Spectral Theorem](https://en.wikipedia.org/wiki/Spectral_theorem) but do not use [Singular Value Decomposition](https://en.wikipedia.org/wiki/Singular_value_decomposition) for our exposition unlike many others do. It also breifly explains ideas behind dimensionality reduction and [Principal Component Regression](https://en.wikipedia.org/wiki/Principal_component_regression).
 
-### Linear and Polynomial Regressions (folder)
-* **Linear Regression (theory).ipynb** contains mathematical explanations on how linear regression algorithm works.
-* **Polynomial Regression (theory).ipynb** contains mathematical explanations on how polynomial regression algorithm works.
-* **Linear and Polynomial Regressions (practice).ipynb** explains how to use linear regression and polynomial regression in practice by finding linear and polynomial models that predict the weekly sales of Walmart based on store, air tempreture, fuel price, CPI, and unemployment rate. We use [dataset about Walmart sales from Kaggle by mikhail1681](https://www.kaggle.com/datasets/mikhail1681/walmart-sales?select=Walmart_sales.csv).
-
-### PCA (folder)
-* **PCA (theory).ipynb** contains mathematical explanations on how principal component analysis (PCA) works. It also breifly explains ideas behind dimensionality reduction and [principal component regression](https://en.wikipedia.org/wiki/Principal_component_regression).
-
-### SVM (folder)
-* **SVM (theory).ipynb** contains mathematical explanations on how support vector machine (SVM) algorithm works. It also breifly expalins the role of the radial basis function (RBF) kernel.
-* **SVM (practice).ipynb** explains how to use SVM model in practice by finding SVM models that predict obesity based on several factors not are weight nor height; these are age, family history with overweight, high calroric food consumption, and food between meals. We use a [dataset for estimation of obesity levels based on eating habits and physical condition in individuals from Colombia, Peru and Mexico from UCI ML Repository](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
+### ML practice
+* **1 Walmart Sales (lin poly regression)** build linear and polynomial models that predict the weekly sales of Walmart based on store, air tempreture, fuel price, CPI, and unemployment rate. We use [dataset about Walmart sales from Kaggle by mikhail1681](https://www.kaggle.com/datasets/mikhail1681/walmart-sales?select=Walmart_sales.csv).
+* **2 Obesity prediction (SVM).ipynb** builds an SVM model that predict obesity based on several factors not are weight nor height; these are age, family history with overweight, high calroric food consumption, and food between meals. We use a [dataset for estimation of obesity levels based on eating habits and physical condition in individuals from Colombia, Peru and Mexico from UCI ML Repository](https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition).
