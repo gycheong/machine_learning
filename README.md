@@ -1,6 +1,6 @@
-## Machine Learning Algorithms (Theory & Practice)
+## Machine Learning (Theory & Practice)
 
-This repository summarizes various Machine Learning (ML) algorithms with rigorous mathematical explanations as well as examples for implementations. All materials are written by me, and they will expand over time. Currently, any citations are given in terms of hyperlinks within the contents.
+This repository summarizes various Machine Learning (ML) models/algorithms with rigorous mathematical explanations as well as examples for implementations. All materials are written by me, and they will expand over time. Currently, any citations are given in terms of hyperlinks within the contents.
 
 ### ML theory
 * **1 Linear Regression.ipynb** contains mathematical explanations on how linear regression algorithm works.
